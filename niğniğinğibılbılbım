@@ -1,0 +1,36 @@
+import time
+
+print("Cevap olarak kabul edilen kelimeler: evet, ismail yk, ne bilim amk, hekimoğlu. Sik sok şeyler yazarsanız size yar yarak der.")
+
+while True:
+    minikpipi = input('Niğniğniğninğinğinğninğniğ niğinğninğninğn nininin şarkısı hangi şarkıdır? ')
+
+    if minikpipi.lower() == "evet":
+        print("Ne diyon amınagoyim")
+    elif minikpipi.lower() == "ismail yk":
+        print("Yarak ye amcık seni")
+    elif minikpipi.lower() == "ne bilim amk":
+        print("kafanı sallandırayım")
+    elif minikpipi.lower() == "hekimoğlu":
+        print("ama hangi dizide onu da yaz")
+        while True:
+            sex = input('Dizi adı pelez... ')
+            if sex.lower() in ["kv", "kvp", "kurtlar vadisi", "kurtlar vadisi pusu"]:
+                print("helal lan saaağ")
+                time.sleep(2)
+                break
+            else:
+                print("hahaha değil amk malı.")
+                time.sleep(2)
+                break
+    else:
+        print("Yar yarag ne diyon olm")
+        continue
+
+    xyz = input('Çıkacak mısın? (w ile çık yoksa başka tuşa bas): ')
+    if xyz.lower() == "w":
+        print("hadi sege")
+        time.sleep(2)
+        break
+    else:
+        print("coşturayımmmmmmmmm")
